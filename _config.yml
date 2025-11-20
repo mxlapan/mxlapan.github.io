@@ -16,7 +16,7 @@ timezone: Asia/Shanghai
 
 title: Maxim Blog # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the subtitle
+tagline: Hi, this is Maxim. I am documenting my learning notes in this blog. # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   Hi, this is Maxim. I am documenting my learning notes in this blog.
@@ -98,7 +98,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: https://avatars.githubusercontent.com/u/123727912?s=400&u=f1e6f01ce35470723ebc861a8e9c8bc5e4724e2d&v=4
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
@@ -109,7 +109,7 @@ toc: true
 
 comments:
   # Global switch for the post-comment system. Keeping it empty means disabled.
-  provider: # [disqus | utterances | giscus]
+  provider: giscus # [disqus | utterances | giscus]
   # The provider options are as follows:
   disqus:
     shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
